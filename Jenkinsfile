@@ -8,7 +8,7 @@ pipeline {
             }
             stage('Checkout') {
                 steps {
-                git https://github.com/kavitha1507/test-repo.git
+                git 'https://github.com/kavitha1507/test-repo.git'
                 }
             }
             stage('Build') {
